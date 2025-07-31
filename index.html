@@ -141,33 +141,16 @@
               <div class="mktoClear">
               </div>
             </div>
-            <div class="mktoFormRow">
-              <div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 5px;">
-                <div class="mktoOffset" style="width: 5px;">
-                </div>
-                <div class="mktoFieldWrap mktoRequiredField">
-                  <label for="privacypolicy_agree" id="Lblprivacypolicy_agree" class="mktoLabel mktoHasWidth" style="width: 400px;">
-                    <div class="mktoAsterix">*</div>個人情報の取扱方針に同意</label>
-                  <div class="mktoGutter mktoHasWidth" style="width: 5px;">
-                  </div>
-                  <div class="mktoLogicalField mktoCheckboxList mktoHasWidth mktoRequired" style="width: 100px;">
-                    <input name="privacypolicy_agree" id="privacypolicy_agree" type="checkbox" 
-                      value="yes" aria-required="true" aria-labelledby="Lblprivacypolicy_agree Instructprivacypolicy_agree" 
-                      class="mktoField">
-                    <label for="privacypolicy_agree" id="Lblprivacypolicy_agree">
-                    </label>
-                  </div>
-                  <span id="Instructprivacypolicy_agree" tabindex="-1" class="mktoInstruction">
-                  </span>
-                  <div class="mktoClear">
-                  </div>
-                </div>
-                <div class="mktoClear">
-                </div>
-              </div>
-              <div class="mktoClear">
-              </div>
-            </div>            
+            <div class="privacy-policy">
+              <fieldset class="privacy-policy-cb">
+                <label for="privacy-checkbox">
+                  <input id="privacy-checkbox" name="privacy-policy" required="required" type="checkbox" value="個人情報の取扱方針">
+                  <span class="checkbox-custom"></span>
+                  <a href="https://bonobo-documents.s3.ap-northeast-1.amazonaws.com/policy_01.pdf"
+                    target="_blank" style="color: #15A6C2;">個人情報の取扱方針</a>に同意
+                </label>
+              </fieldset>
+            </div>      
             <div class="mktoButtonRow">
               <span class="mktoButtonWrap mktoNative" style="margin-left: 355px;">
                 <button type="submit" class="mktoButton">資料ダウンロード</button>
