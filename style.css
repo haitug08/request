@@ -452,16 +452,7 @@ button.mktoButton {
     align-items: center;
     position: relative;
 }
-button.mktoButton:after {
-    content: "\f054";
-    font-family: FontAwesome;
-    font-size: 70%;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    right: 20px;
-}
+
 .mktoButton:hover {
     background: #0090B0;
     color: #fff !important;
