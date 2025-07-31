@@ -59,10 +59,13 @@
                 </div>
                 <div class="mktoFieldWrap mktoRequiredField">
                   <label for="LastName" id="LblLastName" class="mktoLabel mktoHasWidth" style="width: 140px;">
-                    <div class="mktoAsterix">*</div>お名前</label>
+                    <div class="mktoAsterix">*</div>担当者名</label>
                   <div class="mktoGutter mktoHasWidth" style="width: 5px;">
                   </div>
-                  <input id="LastName" name="LastName" placeholder="例）山田 太郎" maxlength="255" aria-labelledby="LblLastName InstructLastName" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired" aria-required="true" style="width: 360px;">
+                  <input id="LastName" name="LastName" placeholder="例）田中 太郎"
+                    maxlength="255" aria-labelledby="LblLastName InstructLastName"
+                    type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired"
+                    aria-required="true" style="width: 360px;">
                   <span id="InstructLastName" tabindex="-1" class="mktoInstruction">
                   </span>
                   <div class="mktoClear">
@@ -80,10 +83,12 @@
                 </div>
                 <div class="mktoFieldWrap mktoRequiredField">
                   <label for="Company" id="LblCompany" class="mktoLabel mktoHasWidth" style="width: 140px;">
-                    <div class="mktoAsterix">*</div>会社名/団体名</label>
+                    <div class="mktoAsterix">*</div>法人名（または屋号）</label>
                   <div class="mktoGutter mktoHasWidth" style="width: 5px;">
                   </div>
-                  <input id="Company" name="Company" placeholder="例）Chatwork株式会社" maxlength="255" title="会社名/団体名を入力してください" aria-labelledby="LblCompany InstructCompany" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired" aria-required="true" style="width: 360px;">
+                  <input id="Company" name="Company" placeholder="例）株式会社アシロ少額短期保険" 
+                    maxlength="255" title="法人名（または屋号）" aria-labelledby="LblCompany InstructCompany"
+                    type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired" aria-required="true" style="width: 360px;">
                   <div class="mktoClear">
                   </div>
                 </div>
@@ -99,10 +104,12 @@
                 </div>
                 <div class="mktoFieldWrap mktoRequiredField">
                   <label for="Phone" id="LblPhone" class="mktoLabel mktoHasWidth" style="width: 140px;">
-                    <div class="mktoAsterix">*</div>電話番号/携帯電話番号</label>
+                    <div class="mktoAsterix">*</div>電話番号</label>
                   <div class="mktoGutter mktoHasWidth" style="width: 5px;">
                   </div>
-                  <input id="Phone" name="Phone" placeholder="例）0312345678" maxlength="255" title="電話番号を入力してください" aria-labelledby="LblPhone InstructPhone" type="tel" class="mktoField mktoTelField mktoHasWidth mktoRequired" aria-required="true" style="width: 360px;">
+                  <input id="Phone" name="Phone" placeholder="例）03ｰ1234ｰ5678" 
+                    maxlength="255" title="電話番号" aria-labelledby="LblPhone InstructPhone"
+                    type="tel" class="mktoField mktoTelField mktoHasWidth mktoRequired" aria-required="true" style="width: 360px;">
                   <div class="mktoClear">
                   </div>
                 </div>
@@ -121,69 +128,9 @@
                     <div class="mktoAsterix">*</div>メールアドレス</label>
                   <div class="mktoGutter mktoHasWidth" style="width: 5px;">
                   </div>
-                  <input id="Email" name="Email" placeholder="例）taro@chatwork.com" maxlength="255" title="チャットワークのアカウントに登録中のものをご入力ください。" aria-labelledby="LblEmail InstructEmail" type="email" class="mktoField mktoEmailField mktoHasWidth mktoRequired" aria-required="true" style="width: 360px;">
-                  <div class="mktoClear">
-                  </div>
-                </div>
-                <div class="mktoClear">
-                </div>
-              </div>
-              <div class="mktoClear">
-              </div>
-            </div>
-            <div class="mktoFormRow">
-              <div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 5px;">
-                <div class="mktoOffset" style="width: 5px;">
-                </div>
-                <div class="mktoFieldWrap mktoRequiredField">
-                  <label for="PF_numberOfEmployees" id="LblPF_numberOfEmployees" class="mktoLabel mktoHasWidth" style="width: 140px;">
-                    <div class="mktoAsterix">*</div>従業員数</label>
-                  <div class="mktoGutter mktoHasWidth" style="width: 5px;">
-                  </div>
-                  <select id="PF_numberOfEmployees" name="PF_numberOfEmployees" aria-labelledby="LblPF_numberOfEmployees InstructPF_numberOfEmployees" class="mktoField mktoHasWidth mktoRequired" aria-required="true" style="width: 340px;">
-                    <option value="">選択...</option>
-                    <option value="1〜4人">1〜4人</option>
-                    <option value="5〜9人">5〜9人</option>
-                    <option value="10〜29人">10〜29人</option>
-                    <option value="30〜49人">30〜49人</option>
-                    <option value="50〜99人">50〜99人</option>
-                    <option value="100〜199人">100〜199人</option>
-                    <option value="200〜299人">200〜299人</option>
-                    <option value="300〜499人">300〜499人</option>
-                    <option value="500〜999人">500〜999人</option>
-                    <option value="1,000人以上">1,000人以上</option>
-                  </select>
-                  <span id="InstructPF_numberOfEmployees" tabindex="-1" class="mktoInstruction">
-                  </span>
-                  <div class="mktoClear">
-                  </div>
-                </div>
-                <div class="mktoClear">
-                </div>
-              </div>
-              <div class="mktoClear">
-              </div>
-            </div>
-            <div class="mktoFormRow">
-              <div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 5px;">
-                <div class="mktoOffset" style="width: 5px;">
-                </div>
-                <div class="mktoFieldWrap mktoRequiredField">
-                  <label for="Title_Class__c" id="LblTitle_Class__c" class="mktoLabel mktoHasWidth" style="width: 140px;">
-                    <div class="mktoAsterix">*</div>役職区分</label>
-                  <div class="mktoGutter mktoHasWidth" style="width: 5px;">
-                  </div>
-                  <select id="Title_Class__c" name="Title_Class__c" aria-labelledby="LblTitle_Class__c InstructTitle_Class__c" class="mktoField mktoHasWidth mktoRequired" aria-required="true" style="width: 340px;">
-                    <option value="">選択...</option>
-                    <option value="経営者・役員 相当">経営者・役員 相当</option>
-                    <option value="部長 相当">部長 相当</option>
-                    <option value="課長 相当">課長 相当</option>
-                    <option value="係長・主任 相当">係長・主任 相当</option>
-                    <option value="一般社員 相当">一般社員 相当</option>
-                    <option value="その他">その他</option>
-                  </select>
-                  <span id="InstructTitle_Class__c" tabindex="-1" class="mktoInstruction">
-                  </span>
+                  <input id="Email" name="Email" placeholder="例）sample@asiro-ssi.com"
+                    maxlength="255" title="メールアドレス" aria-labelledby="LblEmail InstructEmail"
+                    type="email" class="mktoField mktoEmailField mktoHasWidth mktoRequired" aria-required="true" style="width: 360px;">
                   <div class="mktoClear">
                   </div>
                 </div>
@@ -199,11 +146,13 @@
                 </div>
                 <div class="mktoFieldWrap mktoRequiredField">
                   <label for="privacypolicy_agree" id="Lblprivacypolicy_agree" class="mktoLabel mktoHasWidth" style="width: 400px;">
-                    <div class="mktoAsterix">*</div>プライバシーポリシーへの同意</label>
+                    <div class="mktoAsterix">*</div>個人情報の取扱方針に同意</label>
                   <div class="mktoGutter mktoHasWidth" style="width: 5px;">
                   </div>
                   <div class="mktoLogicalField mktoCheckboxList mktoHasWidth mktoRequired" style="width: 100px;">
-                    <input name="privacypolicy_agree" id="privacypolicy_agree" type="checkbox" value="yes" aria-required="true" aria-labelledby="Lblprivacypolicy_agree Instructprivacypolicy_agree" class="mktoField">
+                    <input name="privacypolicy_agree" id="privacypolicy_agree" type="checkbox" 
+                      value="yes" aria-required="true" aria-labelledby="Lblprivacypolicy_agree Instructprivacypolicy_agree" 
+                      class="mktoField">
                     <label for="privacypolicy_agree" id="Lblprivacypolicy_agree">
                     </label>
                   </div>
@@ -222,15 +171,6 @@
                 <button type="submit" class="mktoButton">資料ダウンロード</button>
               </span>
             </div>
-            <input type="hidden" name="formid" class="mktoField mktoFieldDescriptor" value="5764">
-            <input type="hidden" name="lpId" class="mktoField mktoFieldDescriptor" value="31756">
-            <input type="hidden" name="subId" class="mktoField mktoFieldDescriptor" value="183">
-            <input type="hidden" name="munchkinId" class="mktoField mktoFieldDescriptor" value="955-DIQ-169">
-            <input type="hidden" name="lpurl" class="mktoField mktoFieldDescriptor" value="//mpages.chatwork.com/DP-PF-SR-240926-__LP-PF-DL.html?cr={creative}&kw={keyword}">
-            <input type="hidden" name="followupLpId" class="mktoField mktoFieldDescriptor" value="29809">
-            <input type="hidden" name="cr" class="mktoField mktoFieldDescriptor" value="">
-            <input type="hidden" name="kw" class="mktoField mktoFieldDescriptor" value="">
-            <input type="hidden" name="q" class="mktoField mktoFieldDescriptor" value="">
           </form>
           <script>
 
@@ -244,11 +184,9 @@
       </div>
     </div>
     <div class="form-privacy">
-      <p>このフォームでご提出いただく個人情報は、各社のプライバシーポリシーに基づいて適切に管理します。</p>
+      <p>このフォームでご提出いただく個人情報は、個人情報の取扱方針に基づいて適切に管理します。</p>
       <p class="form-privacy__link mktoText" id="privacy-link">
-        <a href="https://go.chatwork.com/ja/privacy/" target="_blank">株式会社kubellプライバシーポリシー</a>
-        <br>
-        <a href="https://sakumiru.jp/privacy" target="_blank">株式会社プレックスプライバシーポリシー</a>
+        <a href="https://bonobo-documents.s3.ap-northeast-1.amazonaws.com/policy_01.pdf" target="_blank">個人情報の取扱方針</a>
         <br>
       </p>
     </div>
