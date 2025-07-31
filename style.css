@@ -342,7 +342,7 @@ div#heroImage {
 }
 .mktoForm .mktoFieldWrap {
     float: none!IMPORTANT;
-    margin-bottom: 1rem;;
+    margin-bottom: 2rem;;
 
 }
 .mktoForm .mktoFormRow {
@@ -357,7 +357,8 @@ div#heroImage {
 .mktoForm .mktoRequiredField label.mktoLabel {
     width: auto !important;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: bold;    
+    margin-bottom: 10px;
 }
 label.mktoLabel.mktoHasWidth {
     width: auto !important;
@@ -378,7 +379,7 @@ div.mktoRequiredField label.mktoLabel.mktoHasWidth:after {
     line-height: 1;
     text-shadow: none;
     color: #fff;
-    background-color: #F03648;
+    background-color: #e56e2c;
     border-radius: 3px;
     margin-left:10px;
     display: -webkit-box;
@@ -428,7 +429,7 @@ div.mktoRequiredField label.mktoLabel.mktoHasWidth:after {
     width:100%!important;
 }
 button.mktoButton {
-    color:#e03546 !important;
+    color:#0090B0 !important;
     cursor: pointer;
     font-size: 15px;
     letter-spacing: 0.1em;
@@ -436,7 +437,7 @@ button.mktoButton {
     line-height: 1;
     width: 210px;
     background-color: #fff;
-    border: solid 3px #e03546;
+    border: solid 3px #0090B0;
     border-radius: 40px;
     padding: 13px 0;
     margin: 0 auto !important;
@@ -462,7 +463,7 @@ button.mktoButton:after {
     right: 20px;
 }
 .mktoButton:hover {
-    background: #e03546;
+    background: #0090B0;
     color: #fff !important;
 }
 .mktoForm .mktoRadioList > label, .mktoForm .mktoCheckboxList > label {
