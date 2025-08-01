@@ -732,3 +732,20 @@ div#headerImage img {
 
 }
 
+.table_03 {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 700px;
+}
+.table_03 th, .table_03 td {
+  border-bottom: 2px solid #c1c7c6;
+  padding: 1em;
+}
+.table_03 th {
+  border-bottom: 2px solid #4d9bc1;;
+  font-weight: bold;
+  text-align: center;
+  width: 20%;
+  min-width: 4em;
+}
+
