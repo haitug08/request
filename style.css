@@ -752,3 +752,16 @@ div#headerImage img {
   text-align: center;
 }
 
+.br-sp {
+  display: none;
+}
+
+@media screen and (max-width: 1080px) {
+  .br-pc {
+    display: none;
+  }
+
+  .br-sp {
+    display: inline-block;
+  }
+}
