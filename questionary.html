@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -14,14 +13,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="9iyExVNL11cdziQQvkYa2nP_Hw1gs92FrQogNlUfe0agrug6Jeq-Gv9FuKq9Mv2stP8NDFWo8ztCtije1CKBvw" />
-    
-
+    <meta name="csrf-token" content="9iyExVNL11cdziQQvkYa2nP_Hw1gs92FrQogNlUfe0agrug6Jeq-Gv9FuKq9Mv2stP8NDFWo8ztCtije1CKBvw" />
     <meta property="og:title" content="bonobo 経営を平和に、サブスク法務と。">
     <meta property="og:description" content="トラブルのない世界をつくる 意思決定を止めないために 経営スピードを止めないために 法の不安から解放された世界を サブスク法務とともにつくっていく">
     <meta property="og:url" content="https://asiro-ssi.com/">
     <meta property="og:image" content="https://asiro-ssi.com/ogp.png">
-
     <meta name="twitter:card" content="summary_large_image">
 
     <!-- favicon -->
@@ -130,11 +126,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </label>
 <div class="mktoGutter mktoHasWidth" style="width: 5px;"></div>
 <div class="mktoRadioList mktoHasWidth" style="width: 360px;">
-<div class="mktoRadio">
+<div class="radio01">
 <input name="q1" id="q1Yes" type="radio" value="あり" data-gtm-form-interact-field-id="0">
 <label for="q1Yes">あり</label>
-</div>
-<div class="mktoRadio">
 <input name="q1" id="q1No" type="radio" value="なし" data-gtm-form-interact-field-id="1">
 <label for="q1No">なし</label>
 </div>
@@ -153,11 +147,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 トラブル時はどのように対応されましたか</p></label>
 <div class="mktoGutter mktoHasWidth" style="width: 5px;"></div>
 <div class="mktoRadioList mktoHasWidth" style="width: 360px;">
-<div class="mktoRadio">
+<div class="radio01">
 <input name="q2" id="q2Yes" type="radio" value="自分で対応 " data-gtm-form-interact-field-id="0">
 <label for="q2Yes">自分で対応 </label>
-</div>
-<div class="mktoRadio">
 <input name="q2" id="q2No" type="radio" value="弁護士に依頼" data-gtm-form-interact-field-id="1">
 <label for="q2No">弁護士に依頼</label>
 </div>
@@ -174,11 +166,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="mktoAsterix">*</div>１日数百円～使えるサブスク型の顧問弁護士サービスに興味ありますか</label>
 <div class="mktoGutter mktoHasWidth" style="width: 5px;"></div>
 <div class="mktoRadioList mktoHasWidth" style="width: 360px;">
-<div class="mktoRadio">
+<div class="radio01">
 <input name="q3" id="q3Yes" type="radio" value="あり" data-gtm-form-interact-field-id="0">
 <label for="q3Yes">あり</label>
-</div>
-<div class="mktoRadio">
 <input name="q3" id="q3No" type="radio" value="なし" data-gtm-form-interact-field-id="1">
 <label for="q3No">なし</label>
 </div>
@@ -312,7 +302,42 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </section>  
 </main>
-</form><script>
+</form>
+<style>
+.radio01{
+	float: left;	
+	width: 100%;	
+}
+.radio01 input{
+	display: none;
+}
+.radio01 label{
+	display: block;
+	float: left;
+	cursor: pointer;
+	width: 120px;
+	margin: 10px 3px 0;
+	padding: 1.4% 0 1.5% 0;
+	border-right: 1px solid #d7d7d7;
+	background: #e5e5e5;
+	color: #555e64;
+	font-size: 14px;
+	text-align: center;
+	transition: .2s;
+}
+.radio01 label:first-of-type{
+}
+
+.radio01 label:last-of-type{
+	border-right: 0px;
+}
+
+.radio01 input[type="radio"]:checked + label {
+	background-color: #e58882;
+	color: #fff;
+}  
+</style>  
+<script>
 // URLからクエリパラメータを解析する関数
 function getQueryParams() {
   const params = {};
